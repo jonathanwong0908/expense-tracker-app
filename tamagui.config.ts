@@ -5,9 +5,9 @@
 // for react-native only: @tamagui/config/v2-native
 
 import { shorthands } from "@tamagui/shorthands";
-import { themes, tokens } from "@tamagui/themes";
-
 import { createTamagui } from "tamagui";
+import tokens from "./theme/tokens";
+import { themes } from "./theme/themes";
 const tamaguiConfig = createTamagui({
   shorthands,
   themes,

@@ -1,7 +1,9 @@
 import { createTokens } from "tamagui";
+import { color, radius, size, space, themes, zIndex } from "@tamagui/themes";
 
 const tokens = createTokens({
   color: {
+    ...color,
     "neutral-50": "#fafafa",
     "neutral-100": "#f5f5f4",
     "neutral-200": "#e5e5e5",
@@ -14,10 +16,10 @@ const tokens = createTokens({
     "neutral-900": "#171717",
     "neutral-950": "#0a0a0a",
   },
-  space: {},
-  size: {},
-  radius: {},
-  zIndex: {},
+  space,
+  size,
+  radius,
+  zIndex,
 });
 
 export default tokens;
